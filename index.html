@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="he-logo">
+        <img src="img/11.png" alt="스포티파이 로고" class="logo" />
+        <hr />
+      </div>
+      <div class="section">
+        <p class="login-chat">계속하려면 Spotify에 로그인하세요.</p>
+        <div class="login">
+          <button class="facebook account-login" id="button">
+            FACEBOOK으로 계속하기
+          </button>
+          <br />
+          <button class="apple account-login" id="button">
+            APPLE로 계속하기
+          </button>
+          <br />
+          <button class="google account-login" id="button">
+            GOOGLE로 계속하기
+          </button>
+          <br />
+          <p class="or">또는</p>
+          <div class="user-testid">
+            <div class="input-chat">이메일 주소 또는 사용자 이름</div>
+            <input
+              type="text"
+              placeholder="이메일 주소 또는 사용자 이름"
+              class="user-input"
+            />
+            <div class="input-chat">비밀번호</div>
+            <input type="password" placeholder="비밀번호" class="user-input" />
+            <div class="forgot-password">비밀번호를 잊었나요?</div>
+            <div class="ch-infor">
+              <span class="check-mine">
+                <input type="checkbox" class="check" /><span class="ch-font"
+                  >내 정보 기억하기</span
+                >
+              </span>
+              <span class="login-progress">
+                <button class="login-btn">로그인하기</button>
+              </span>
+            </div>
+            <hr />
+            <div class="no-id">계정이 없나요?</div>
+            <button id="button" class="signup-btn">SPOTIFY에 가입하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  display: block;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+.he-logo {
+  text-align: center;
+  padding: 25px 0px 10px;
+  margin-bottom: 30px;
+}
+.logo {
+  padding-bottom: 10px;
+  width: 182px;
+  height: 56px;
+}
+.login {
+  margin: 0 auto;
+  width: 450px;
+  height: 700px;
+}
+.login-chat {
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+#button {
+  width: 450px;
+  height: 48px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #3b5998;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+.apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #000000e6;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+}
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  background-color: #fff;
+  color: #6a6a6a;
+  font-weight: 700;
+}
+.account-login {
+  display: inline-flex;
+}
+.hr {
+  margin: 12px 0px 20px;
+  flex: 1 1 0%;
+  border-top: 1px solid rgb(217, 218, 220);
+}
+.or {
+  text-align: center;
+  font-size: 0.825rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.input-chat {
+  font-size: 0.825rem;
+  font-weight: 700;
+  margin-bottom: 11px;
+  line-height: 1.25rem;
+  font-size: 14px;
+}
+.user-input {
+  width: 450px;
+  height: 50px;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+.forgot-password {
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+div.forgot-password:hover {
+  text-decoration: underline;
+}
+.ch-infor {
+  width: 450px;
+  height: 48px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.check {
+  margin-right: 15px;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+.check-mine {
+}
+.ch-font {
+  font-weight: 400;
+  font-size: 0.825rem;
+  vertical-align: top;
+}
+.login-progress {
+  display: flex;
+  float: right;
+}
+.login-btn {
+  width: 144px;
+  height: 48px;
+  background-color: #1ed760;
+  border: 1px solid #fff;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+.no-id {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.signup-btn {
+  color: #6a6a6a;
+  font-weight: 700;
+  background: #fff;
+  border: 1px solid #6a6a6a;
+  font-size: 14px;
+  cursor: pointer;
+}
+button.signup-btn:hover {
+  border: 1px solid #000000;
+}
